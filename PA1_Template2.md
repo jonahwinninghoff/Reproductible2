@@ -86,7 +86,7 @@ Q1 %>% group_by(date) %>% summarise(Plot1 = sum(steps, na.rm = TRUE)) %>%
   ylab("Frequency") + theme_dark(base_family = "Times")
 ```
 
-![](PA1_Template_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![image](PA1_Template_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
 The third part is to find mean and median of Q1 steps, which might be an
 easiest part to code.
@@ -167,7 +167,7 @@ Q1 %>% group_by(date) %>% summarise(Plot2 =
 
     ## Warning: Removed 2 rows containing missing values (geom_path).
 
-![](PA1_Template_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![image](PA1_Template_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 The fifth part is to find the maximum number of steps from within 5
 minute interval through all of this dataset, which is fairly with simple
@@ -242,7 +242,7 @@ Q2 %>% group_by(date) %>% summarise(Plot1 = sum(steps)) %>%
   ylab("Frequency") + theme_dark(base_family = "Times")
 ```
 
-![](PA1_Template_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![image](PA1_Template_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ``` r
 Q2 %>% group_by(date) %>%
@@ -347,6 +347,6 @@ Weekend %>% group_by(interval) %>% summarise(Plot2 =
 grid.arrange(pR, Pr, nrow=2)
 ```
 
-![](PA1_Template_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![image](PA1_Template_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 Thank you for taking your time to read this.
